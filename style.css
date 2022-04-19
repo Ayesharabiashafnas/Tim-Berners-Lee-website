@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    text-align: center;
+}
+.profile{
+    border-radius:50%;
+}
+#welcome{
+    background: linear-gradient(#9203ff 0%, #42ff03 100%);
+}
+
+.line{
+font-weight: bold;
+font-size: 20px;
+color: crimson;
+}
+
+#bio{
+    background: linear-gradient( #f6ff00 0%,#0033ff 100%); 
+    font-family: 'Pacifico', cursive;  
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    background: aquamarine;
+    width: 100%;
+   margin-top: 0px;
+   top: 0px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.links{
+    display: inline;
+    float: left;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 33px;
+    color: hotpink;
+}
+.links:hover{
+font-size: 25px;
+text-decoration: underline;
+}
+
+#name{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: darkviolet !important;
+}
